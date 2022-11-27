@@ -7,15 +7,16 @@ mid.tracks.append(track)
 track.append(mido.Message('program_change', program=10, time=0))
 track.append(mido.MetaMessage('set_tempo', tempo=random.randint(300000,1000000), time=0))
 
-pitch_list = [[] for t0 in range(100)]  # 所有音符的音高
-vel_list = [[] for t1 in range(100)]  # 所有音符的音量
-max_value=random.randint(50,100);
+max_value=random.randint(50,150);
+pitch_list = [[] for t0 in range(max_value)]  # 所有音符的音高
+vel_list = [[] for t1 in range(max_value)]  # 所有音符的音量
+
 
 # 音量和音高
 for i in range(max_value):
     note_num = random.randint(0, 3)
     while True:
-        pitch_list[i] = [random.randint(60, 80) for t2 in range(note_num)]
+        pitch_list[i] = [random.randint(70, 80) for t2 in range(note_num)]
         vel_list[i] = [random.randint(50, 80) for t3 in range(note_num)]
         if len(pitch_list[i]) == len(set(pitch_list[i])):  # 同一时间音符的音高不能重合
             break
