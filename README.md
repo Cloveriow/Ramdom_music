@@ -302,7 +302,7 @@ Sound Effects 聲音效果
 127 Gunshot 槍聲
 
 
-以下為產生結果的範例
+以下為產生該程式產生的midi範例
 
 https://www.midishow.com/zh-tw/midi/ramdom-midi-download-161793
 
