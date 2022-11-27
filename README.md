@@ -304,3 +304,5 @@ Sound Effects 聲音效果
 
 以下為產生結果的範例
 https://www.midishow.com/zh-tw/midi/ramdom-midi-download-161793
+如果你沒有midishow帳號,你可以嘗試使用google雲端來下載
+https://drive.google.com/drive/folders/1Q1DieAoV8QD8tQaJxovg4h_Sp-euVonG?usp=sharing
