@@ -6,9 +6,7 @@
 以及音符數量、音量等
 最後轉成midi檔輸出
 
-track.append(mido.Message('program_change', program=10, time=0))
-program代表使用的樂器
-
+       track.append(mido.Message('program_change', program=10, time=0))    program代表使用的樂器
         pitch_list[i] = [random.randint(70, 80) for t2 in range(note_num)] 此為ramdom音量的上下限
         vel_list[i] = [random.randint(50, 80) for t3 in range(note_num)]   此為ramdom音高的上下限
 
