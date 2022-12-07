@@ -11,9 +11,9 @@
         vel_list[i] = [random.randint(50, 80) for t3 in range(note_num)]   此為ramdom音高的上下限
 
 
---附midi音色表
+# --附midi音色表
 音色表
-鋼琴
+# 鋼琴
 
 0 Acoustic Grand Piano 大鋼琴（聲學鋼琴）
 
@@ -31,7 +31,7 @@
 
 7 Clavichord 科拉維科特琴（擊弦古鋼琴）
 
-色彩打擊樂器
+# 色彩打擊樂器
 
 8 Celesta 鋼片琴
 
@@ -49,7 +49,7 @@
 
 15 Dulcimer 大揚琴
 
-風琴
+# 風琴
 
 16 Hammond Organ 擊桿風琴
 
@@ -67,7 +67,7 @@
 
 23 Tango Accordian 探戈手風琴
 
-吉他
+# 吉他
 
 24 Acoustic Guitar (nylon) 尼龍弦吉他
 
@@ -85,7 +85,7 @@
 
 31 Guitar Harmonics 吉他和音
 
-貝司
+# 貝司
 
 32 Acoustic Bass 大貝司（聲學貝司）
 
@@ -103,7 +103,7 @@
 
 39 Synth Bass 2 電子合成Bass 2
 
-弦樂
+# 弦樂
 
 40 Violin 小提琴
 
@@ -121,7 +121,7 @@
 
 47 Timpani 定音鼓
 
-合奏/合唱
+# 合奏/合唱
 
 48 String Ensemble 1 弦樂合奏音色1
 
@@ -139,7 +139,7 @@
 
 55 Orchestra Hit 管弦樂敲擊齊奏
 
-銅管
+# 銅管
 
 56 Trumpet 小號
 
@@ -157,7 +157,7 @@
 
 63 Synth Brass 2 合成銅管音色2
 
-簧管
+# 簧管
 
 64 Soprano Sax  高音薩克斯風
 
@@ -175,7 +175,7 @@
 
 71 Clarinet 單簧管（黑管）
 
-笛
+# 笛
 
 72 Piccolo 短笛
 
@@ -193,7 +193,7 @@
 
 79 Ocarina   奧卡雷那
 
-合成主音
+# 合成主音
 
 80 Lead 1 (square)  合成主音1（方波）
 
@@ -211,7 +211,7 @@
 
 87 Lead 8 (bass+lead)合成主音8（貝司加主音）
 
-合成音色
+# 合成音色
 
 88 Pad 1 (new age) 合成音色1（新世紀）
 
@@ -229,7 +229,7 @@
 
 95 Pad 8 (sweep) 合成音色8
 
-合成效果
+# 合成效果
 
 96 FX 1 (rain) 合成效果1雨聲
 
@@ -247,7 +247,7 @@
 
 103 FX 8 (sci-fi)  合成效果8科幻
 
-民間樂器
+# 民間樂器
 
 104 Sitar 西塔爾（印度）
 
@@ -265,7 +265,7 @@
 
 111 Shanai 山奈
 
-打擊樂器
+# 打擊樂器
 
 112 Tinkle Bell 叮噹鈴
 
@@ -302,7 +302,7 @@ Sound Effects 聲音效果
 127 Gunshot 槍聲
 
 
-以下為產生該程式產生的midi範例
+# 以下為產生該程式產生的midi範例
 
 https://www.midishow.com/zh-tw/midi/ramdom-midi-download-161793
 
