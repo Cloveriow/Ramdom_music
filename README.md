@@ -1,4 +1,4 @@
-# ramdom-music
+# Ramdom-music
 需要mido,random
 
 
